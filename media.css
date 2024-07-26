@@ -1,0 +1,5 @@
+@media (max-width: 750px) {
+  #basic-addon2 {
+    transform: translate(155px, -53px);
+  }
+}

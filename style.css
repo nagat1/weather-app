@@ -1,0 +1,159 @@
+/* global */
+.right a,
+.tagline,
+.weather,
+.words,
+.contact-info p,
+.contact-info a {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-style: normal;
+}
+.tagline {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 10px;
+
+  color: #bfc1c8;
+}
+.weather {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0px;
+}
+.right a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 100px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+}
+.words {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bfc1c8;
+}
+/* .......... */
+.right a:hover {
+  border: 2px solid #009ad8;
+  color: #009ad8;
+}
+.right .one {
+  border: 2px solid #009ad8;
+  color: #009ad8;
+}
+.left img {
+  width: 80px;
+  height: 40px;
+}
+/* ............. */
+section {
+  background-image: url(images/banner.png);
+  height: 60vh;
+}
+#basic-addon2 {
+  background-color: #009ad8;
+  padding-block: 10px;
+  padding-inline: 37px;
+  color: white;
+  transform: translate(-110px, 19px);
+}
+#basic-addon3 {
+  background-color: #009ad8;
+  padding-block: 10px;
+  padding-inline: 25px;
+  color: white;
+  top: 45px;
+  right: 4px;
+}
+.input1,
+.input2 {
+  background-color: rgba(0, 0, 0, 0.884);
+  padding-block: 15px;
+  margin-top: 40px;
+}
+.black {
+  height: 30vh;
+}
+.input1 {
+  width: 85%;
+}
+.copyright {
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+.icon-item i {
+  width: 40px;
+  height: 40px;
+  color: #009ad8;
+  background-color: black;
+  padding: 5px;
+  transition: 1s 0.5 ease-in-out;
+}
+.icon-item i:hover {
+  color: white;
+  background-color: #009ad8;
+}
+/* contact html */
+.contact-form input,
+textarea {
+  padding-block: 10px;
+  padding-inline: 20px;
+  background-color: #1e202b;
+  border: solid 1px #bfc1c8;
+}
+/* textarea:hover {
+  border: 2px solid #009ad8;
+}
+.contact-form input:hover {
+  border: 2px solid #009ad8;
+} */
+textarea {
+  height: 30vh;
+}
+.text-right .submit {
+  background-color: #009ad8;
+  right: 10%;
+}
+.second {
+  background-color: #1e202b;
+}
+.contact-details,
+.space {
+  background-color: #262936;
+}
+address img {
+  transform: translate(4px, 30px);
+}
+.contact-info p,
+.contact-info a {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb(191, 193, 200);
+}
+.homecont {
+  background-color: #1e202b;
+}
+.homecont .input1 {
+  background-color: #262936;
+}
+.homecont2 {
+  top: 57%;
+  left: 9%;
+}
+.homecont2 i {
+  color: #bfc1c8;
+}
+/* display */
+.forecast-table {
+  left: 12.5%;
+}
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.custom {
+  color: #009ad8;
+}

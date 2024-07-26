@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="contact.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans
+:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;
+0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-fluid bg-dark p-lg-3">
+      <div class="row p-md-4">
+        <div class="left col-6">
+          <div class="row">
+            <div
+              class="col-md-6 d-md-flex justify-content-center align-items-center"
+            >
+              <a
+                href="https://routeweather.netlify.app/"
+                class="d-flex text-decoration-none"
+              >
+                <img src="images/logo.png" class="pe-2" alt="" />
+                <div class="pt-3">
+                  <p class="weather text-white">Weather</p>
+                  <p class="tagline text-white">tagline goes here</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="right d-md-flex d-none justify-content-center col-6 align-items-baseline pt-lg-2 gap-1 pe-5"
+        >
+          <a
+            class="btn py-2 px-3 rounded-pill d-flex justify-content-center align-items-center badge one"
+            href="index.html"
+            >Home</a
+          >
+          <a
+            class="btn py-2 px-3 rounded-pill d-flex justify-content-center align-items-center badge"
+            href=""
+            >News</a
+          >
+          <a
+            class="btn py-2 px-3 rounded-pill d-flex justify-content-center align-items-center badge"
+            href=""
+            >Live cameras</a
+          >
+          <a
+            class="btn py-2 px-3 rounded-pill d-flex justify-content-center align-items-center badge"
+            href=""
+            >Photos</a
+          >
+          <a
+            class="btn py-2 px-3 rounded-pill d-flex justify-content-center align-items-center badge"
+            href="contact.html"
+            >Contact
+          </a>
+        </div>
+      </div>
+    </div>
+    <section class="position-relative">
+      <div
+        class="input-group mb-3 d-flex justify-content-center align-items-center "
+      >
+        <input
+          type="text"
+          class="input1 rounded-pill col-md-8 col-4 text-white"
+          placeholder=" Find your location"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <button
+          class="input-group-text btn rounded-pill fs-6"
+          id="basic-addon2"
+        >
+          Find
+        </button>
+      </div>
+      <!-- ...................... -->
+      <div class="forecast-table w-75 bg-info position-absolute top-50">
+        <div class="forecast-container row" id="forecast"></div>
+      </div>
+    </section>
+
+    <div class="bg-black black"></div>
+    <div class="bg-black black d-md-none d-flex"></div>
+    <div class="bg-black black d-md-none d-flex"></div>
+    <div class="bg-black black d-md-none d-flex"></div>
+    <div class="copyright">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-8 d-flex flex-column">
+            <div
+              class="input-group mb-3 d-flex justify-content-center align-items-center"
+            >
+              <input
+                type="text"
+                class="input2 rounded-pill w-100 position-relative border-0"
+                placeholder=" Enter your mail to subscribe"
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon3"
+              />
+              <button
+                class="input-group-text btn rounded-pill fs-6 position-absolute"
+                id="basic-addon3"
+              >
+                Subscribe
+              </button>
+            </div>
+            <div class="words">
+              <p class="mt-1">
+                Copyright 2014 Company name. Designed by Themezy. All rights
+                reserved
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-4 icon-item d-flex gap-1 justify-content-center align-items-center"
+          >
+            <i
+              class="fa-brands rounded-circle fa-facebook-f fa-lg d-flex justify-content-center align-items-center"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-twitter fa-lg d-flex justify-content-center align-items-center"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-google-plus-g fa-lg d-flex justify-content-center align-items-center"
+            ></i>
+            <i
+              class="fa-brands rounded-circle fa-pinterest-p fa-lg d-flex justify-content-center align-items-center"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
